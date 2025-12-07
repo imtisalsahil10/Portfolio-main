@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/Portfolio-main/', // Change this to your GitHub repo name
+  base: '/Portfolio-main/', // Repository name for GitHub Pages
 });
