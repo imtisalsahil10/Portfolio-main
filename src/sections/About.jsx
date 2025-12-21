@@ -169,7 +169,7 @@ const About = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-1.5 px-4 py-2 text-sm text-white transition-all duration-300 border border-white rounded-full bg-black/50 backdrop-blur-sm hover:bg-white hover:text-black"
               >
-                <img src="/assets/github.svg" alt="GitHub" className="w-4 h-4" />
+                <img src="assets/github.svg" alt="GitHub" className="w-4 h-4" />
                 <span className="font-medium">GitHub</span>
               </a>
               <a
@@ -178,7 +178,7 @@ const About = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-1.5 px-4 py-2 text-sm text-white transition-all duration-300 border border-white rounded-full bg-black/50 backdrop-blur-sm hover:bg-blue-600 hover:border-blue-600"
               >
-                <img src="/assets/socials/linkedIn.svg" alt="LinkedIn" className="w-4 h-4" />
+                <img src="assets/socials/linkedIn.svg" alt="LinkedIn" className="w-4 h-4" />
                 <span className="font-medium">LinkedIn</span>
               </a>
               <CopyEmailButton />
