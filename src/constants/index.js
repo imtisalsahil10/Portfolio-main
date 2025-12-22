@@ -13,33 +13,34 @@ export const myProjects = [
       "Impact: Democratizes agricultural expertise by providing instant AI-driven guidance accessible to farmers in their native language",
     ],
     href: "https://github.com/imtisalsahil10/agriinsight-ai",
+    liveLink: "https://agriinsight-ai.vercel.app/",
     logo: "",
-    image: "/assets/projects/dashboard page agri.jpg",
+    image: `${import.meta.env.BASE_URL || "/"}assets/projects/dashboard page agri.jpg`,
     images: [
-      "/assets/projects/dashboard page agri.jpg",
-      "/assets/projects/video analysis.jpg",
-      "/assets/projects/agriinsight login page.jpg"
+      `${import.meta.env.BASE_URL || "/"}assets/projects/dashboard page agri.jpg`,
+      `${import.meta.env.BASE_URL || "/"}assets/projects/video analysis.jpg`,
+      `${import.meta.env.BASE_URL || "/"}assets/projects/agriinsight login page.jpg`
     ],
     tags: [
       {
         id: 1,
         name: "React 19",
-        path: "/assets/logos/react.svg",
+        path: `${import.meta.env.BASE_URL || "/"}assets/logos/react.svg`,
       },
       {
         id: 2,
         name: "TypeScript",
-        path: "/assets/logos/typescript.svg",
+        path: `${import.meta.env.BASE_URL || "/"}assets/logos/typescript.svg`,
       },
       {
         id: 3,
         name: "Gemini AI",
-        path: "/assets/logos/googlegemini.svg",
+        path: `${import.meta.env.BASE_URL || "/"}assets/logos/googlegemini.svg`,
       },
       {
         id: 4,
         name: "Vite",
-        path: "/assets/logos/vitejs.svg",
+        path: `${import.meta.env.BASE_URL || "/"}assets/logos/vitejs.svg`,
       },
     ],
   },
@@ -57,31 +58,31 @@ export const myProjects = [
     ],
     href: "https://github.com/imtisalsahil10/inboxintel-ai",
     logo: "",
-    image: "/assets/projects/inboxintel dashboard.jpg",
+    image: `${import.meta.env.BASE_URL || "/"}assets/projects/inboxintel dashboard.jpg`,
     images: [
-      "/assets/projects/inboxintel dashboard.jpg",
-      "/assets/projects/inbox reply.jpg"
+      `${import.meta.env.BASE_URL || "/"}assets/projects/inboxintel dashboard.jpg`,
+      `${import.meta.env.BASE_URL || "/"}assets/projects/inbox reply.jpg`
     ],
     tags: [
       {
         id: 1,
         name: "React",
-        path: "/assets/logos/react.svg",
+        path: `${import.meta.env.BASE_URL || "/"}assets/logos/react.svg`,
       },
       {
         id: 2,
         name: "TypeScript",
-        path: "/assets/logos/typescript.svg",
+        path: `${import.meta.env.BASE_URL || "/"}assets/logos/typescript.svg`,
       },
       {
         id: 3,
         name: "Node.js",
-        path: "/assets/logos/nodedotjs.svg",
+        path: `${import.meta.env.BASE_URL || "/"}assets/logos/nodedotjs.svg`,
       },
       {
         id: 4,
         name: "Express",
-        path: "/assets/logos/express.svg",
+        path: `${import.meta.env.BASE_URL || "/"}assets/logos/express.svg`,
       },
     ],
   },
@@ -92,17 +93,17 @@ export const mySocials = [
   {
     name: "GitHub",
     href: "https://github.com/imtisalsahil10",
-    icon: "/assets/github.svg",
+    icon: "assets/github.svg",
   },
   {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/imtisalsahil/",
-    icon: "/assets/socials/linkedIn.svg",
+    icon: "assets/socials/linkedIn.svg",
   },
   {
     name: "WhatsApp",
     href: "https://wa.me/919599563021",
-    icon: "/assets/socials/whatsApp.svg",
+    icon: "assets/socials/whatsApp.svg",
   },
 ];
 

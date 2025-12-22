@@ -1,4 +1,6 @@
 import { useRef } from "react";
+
+const BASE_URL = import.meta.env.BASE_URL || "/";
 import Card from "../components/Card";
 import { Globe } from "../components/globe";
 import CopyEmailButton from "../components/CopyEmailButton";
@@ -13,11 +15,11 @@ const About = () => {
         {/* Grid 1 */}
         <div className="flex items-end grid-default-color grid-1">
           <img
-            src="assets/coding-pov.png"
+            src={`${BASE_URL}assets/coding-pov.png`}
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
           <div className="z-10">
-            <p className="headtext">Hi, I'm Imtisal Sahil Ansari</p>
+            <p className="headtext">Professional Summary</p>
             <p className="subtext">
               AI/ML-focused Software Engineer with hands-on experience building full-stack intelligent systems, integrating LLMs, and developing scalable backend services. Published researcher (PReMI 2025, IIT Delhi) with expertise in React, TypeScript, Node.js, Express, OAuth 2.0, JWT, and modern AI/ML technologies including Gemini AI and Whisper for real-world automation and decision-support platforms.
             </p>
@@ -169,7 +171,7 @@ const About = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-1.5 px-4 py-2 text-sm text-white transition-all duration-300 border border-white rounded-full bg-black/50 backdrop-blur-sm hover:bg-white hover:text-black"
               >
-                <img src="assets/github.svg" alt="GitHub" className="w-4 h-4" />
+                <img src={`${BASE_URL}assets/github.svg`} alt="GitHub" className="w-4 h-4" />
                 <span className="font-medium">GitHub</span>
               </a>
               <a
@@ -178,7 +180,7 @@ const About = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-1.5 px-4 py-2 text-sm text-white transition-all duration-300 border border-white rounded-full bg-black/50 backdrop-blur-sm hover:bg-blue-600 hover:border-blue-600"
               >
-                <img src="assets/socials/linkedIn.svg" alt="LinkedIn" className="w-4 h-4" />
+                <img src={`${BASE_URL}assets/socials/linkedIn.svg`} alt="LinkedIn" className="w-4 h-4" />
                 <span className="font-medium">LinkedIn</span>
               </a>
               <CopyEmailButton />

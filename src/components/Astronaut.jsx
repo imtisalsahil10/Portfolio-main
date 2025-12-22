@@ -11,10 +11,12 @@ import { useGLTF, useAnimations } from "@react-three/drei";
 import { useMotionValue, useSpring } from "motion/react";
 import { useFrame } from "@react-three/fiber";
 
+const BASE_URL = import.meta.env.BASE_URL || '/';
+
 export function Astronaut(props) {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF(
-    "/models/tenhun_falling_spaceman_fanart.glb"
+    `${BASE_URL}models/tenhun_falling_spaceman_fanart.glb`
   );
   const { actions } = useAnimations(animations, group);
   useEffect(() => {
@@ -127,4 +129,4 @@ export function Astronaut(props) {
   );
 }
 
-useGLTF.preload("/models/tenhun_falling_spaceman_fanart.glb");
+useGLTF.preload(`${BASE_URL}models/tenhun_falling_spaceman_fanart.glb`);

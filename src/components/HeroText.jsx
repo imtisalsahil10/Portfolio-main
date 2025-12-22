@@ -20,6 +20,15 @@ const HeroText = () => {
         >
           Hi, I'm Imtisal Sahil Ansari
         </motion.h1>
+        <motion.p
+          className="text-2xl font-medium text-neutral-400 mb-4"
+          variants={variants}
+          initial="hidden"
+          animate="visible"
+          transition={{ delay: 1.1 }}
+        >
+          Software Engineer & AI/ML Researcher
+        </motion.p>
         <div className="flex flex-col items-start">
           <motion.p
             className="text-5xl font-medium text-neutral-300"
@@ -28,7 +37,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            Software Engineer & AI/ML Researcher <br /> Building
+            Building
           </motion.p>
           <motion.div
             variants={variants}
@@ -71,7 +80,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            Building
+            Software Engineer & AI/ML Researcher <br /> Building
           </motion.p>
           <motion.div
             variants={variants}
