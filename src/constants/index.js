@@ -46,17 +46,19 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "InboxIntel AI - Intelligent Email Management System",
+    title: "InboxIntel AI - Intelligent Email Assistant",
     description:
-      "An AI-powered email analysis platform integrating Google Gemini AI to detect sentiment, urgency, and category of Gmail messages.",
+      "Developed a full-stack AI-powered email management platform using React, Node.js, and MongoDB.",
     subDescription: [
-      "Built an AI-powered email analysis platform integrating Google Gemini AI to detect sentiment, urgency, and category of Gmail messages.",
-      "Implemented OAuth 2.0 authentication with secure Gmail API access and token lifecycle management.",
-      "Developed Express.js REST APIs for email fetching, parsing, and intelligent analysis.",
-      "Created a responsive TypeScript-based React UI with modular and type-safe components.",
-      "Deployed frontend on Vercel and backend on Render with environment-based configuration.",
+      "AI Integration: Integrated Google Gemini AI to provide real-time email summarization, sentiment analysis, urgency scoring, and smart reply generation.",
+      "Secure Authentication: Implemented OAuth 2.0 with Google for secure user authentication and managed persistent sessions using MongoDB and secure cookies.",
+      "Full-Stack Architecture: Built a RESTful API with Express.js to handle Gmail API synchronization, email sending, and data storage, coupled with a responsive React frontend.",
+      "Cloud Deployment: Deployed the application on Render using Infrastructure as Code (IaC) with a render.yaml blueprint, ensuring automated and scalable delivery.",
+      "Data Management: Designed a MongoDB schema to efficiently cache and sync email threads, optimizing performance and reducing API quota usage.",
+      "Tech Stack: React, TypeScript, Node.js, Express, MongoDB, Google Gemini AI, Gmail API, OAuth 2.0, Tailwind CSS, Render."
     ],
     href: "https://github.com/imtisalsahil10/inboxintel-ai",
+    liveLink: "https://inboxintel-frontend.onrender.com",
     logo: "",
     image: `${import.meta.env.BASE_URL || "/"}assets/projects/inboxintel dashboard.jpg`,
     images: [
@@ -83,6 +85,65 @@ export const myProjects = [
         id: 4,
         name: "Express",
         path: `${import.meta.env.BASE_URL || "/"}assets/logos/express.svg`,
+      },
+      {
+        id: 5,
+        name: "MongoDB",
+        path: `${import.meta.env.BASE_URL || "/"}assets/logos/mongodb.svg`,
+      },
+      {
+        id: 6,
+        name: "Gemini AI",
+        path: `${import.meta.env.BASE_URL || "/"}assets/logos/googlegemini.svg`,
+      },
+      {
+        id: 7,
+        name: "Tailwind CSS",
+        path: `${import.meta.env.BASE_URL || "/"}assets/logos/tailwindcss.svg`,
+      },
+      {
+        id: 8,
+        name: "Render",
+        path: `${import.meta.env.BASE_URL || "/"}assets/logos/render.svg`,
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "4 in a Row – Real-Time Multiplayer Game",
+    description:
+      "Architected and deployed full-stack web application with Go backend and React frontend supporting real-time gameplay via WebSockets for 1v1 matches with intelligent bot fallback.",
+    subDescription: [
+      "Engineered RESTful API with CORS, PostgreSQL persistence using GORM, and UUID-based player statistics tracking with automatic database migrations",
+      "Containerized microservices (backend, frontend, analytics) using Docker and deployed to Render with managed PostgreSQL and Kafka event streaming for game analytics",
+      "Implemented competitive AI bot using strategic win/block detection algorithms and optimized game state management with mutex-based concurrency control",
+      "Key Metrics: <10s matchmaking, 30s reconnection window, real-time leaderboard with win/loss tracking",
+      "Tech Stack: Go, React, PostgreSQL, Kafka, Docker, WebSockets, GORM, Render"
+    ],
+    href: "https://github.com/imtisalsahil10/4-in-a-row",
+    liveLink: "https://emitrr-frontend.onrender.com/",
+    logo: "",
+    image: `${import.meta.env.BASE_URL || "/"}assets/projects/4row-1.png`,
+    images: [
+      `${import.meta.env.BASE_URL || "/"}assets/projects/4row-1.png`,
+      `${import.meta.env.BASE_URL || "/"}assets/projects/4row-2.png`,
+      `${import.meta.env.BASE_URL || "/"}assets/projects/4row-3.png`
+    ],
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: `${import.meta.env.BASE_URL || "/"}assets/logos/react.svg`,
+      },
+      {
+        id: 2,
+        name: "Docker",
+        path: `${import.meta.env.BASE_URL || "/"}assets/logos/docker.svg`,
+      },
+      {
+        id: 3,
+        name: "Render",
+        path: `${import.meta.env.BASE_URL || "/"}assets/logos/render.svg`,
       },
     ],
   },
