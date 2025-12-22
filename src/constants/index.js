@@ -123,11 +123,11 @@ export const myProjects = [
     href: "https://github.com/imtisalsahil10/4-in-a-row",
     liveLink: "https://emitrr-frontend.onrender.com/",
     logo: "",
-    image: `${import.meta.env.BASE_URL || "/"}assets/projects/4row-1.png`,
+    image: `${import.meta.env.BASE_URL || "/"}assets/projects/Screenshot 2025-12-23 022014.png`,
     images: [
-      `${import.meta.env.BASE_URL || "/"}assets/projects/4row-1.png`,
-      `${import.meta.env.BASE_URL || "/"}assets/projects/4row-2.png`,
-      `${import.meta.env.BASE_URL || "/"}assets/projects/4row-3.png`
+      `${import.meta.env.BASE_URL || "/"}assets/projects/Screenshot 2025-12-23 022014.png`,
+      `${import.meta.env.BASE_URL || "/"}assets/projects/Screenshot 2025-12-23 021855.png`,
+      `${import.meta.env.BASE_URL || "/"}assets/projects/Screenshot 2025-12-23 021933.png`
     ],
     tags: [
       {
